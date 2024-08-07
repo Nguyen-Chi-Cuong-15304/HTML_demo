@@ -1,0 +1,86 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: brown;
+}
+p{
+    color: black;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none; 
+  }
+  
+  a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+/* cài các thuộc tính cho list ở đầu trang */
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+
+  #list1 li {
+    float: left;
+    background-color: burlywood;
+  }
+
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: chartreuse;
+  }
+
+  table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  th, td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: auto;
+    text-align: center;
+  }
+  tr:nth-child(even){
+    background-color: aquamarine;
+  }
+
+  .img-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .img-row img{
+    margin: 10px;
+    max-width: 500px;
+    height: auto;
+  }
